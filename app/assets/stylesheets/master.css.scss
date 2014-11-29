@@ -1,0 +1,17 @@
+body {
+  background: url('/assets/bg.png');
+}
+
+h1 {
+	color: #00C76A;
+}
+
+.navbar.navbar-inverse {
+  background:url('/assets/black_scales.png');
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #00C76A;
+}
