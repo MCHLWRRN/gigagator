@@ -1,3 +1,5 @@
 class VenuesController < ApplicationController
-	@venues = Venues.all
+	def new
+		@venue = Venue.new
+	end
 end

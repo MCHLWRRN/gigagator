@@ -54,5 +54,6 @@ Gigagator::Application.routes.draw do
   #     resources :products
   #   end
   root 'gigs#index'
+  resources :venues
 
 end
