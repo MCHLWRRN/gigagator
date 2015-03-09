@@ -9,6 +9,7 @@
 	<div class="boxed col-xs-10 col-xs-offset-1">
 	<%= simple_form_for @gig, :url => venue_gigs_path(@venue) do |f| %>
 	  <%= f.input :name %>
+	  <%= f.input :gig_date %>
 	  <br />
 	  <%= f.submit "Add a Gig", :class => 'btn btn-primary' %>
 	<% end %>
@@ -20,6 +21,7 @@
 	<% @venue.gigs.each do |gig| %>
 	  <div>
 	    <b><%= gig.name %></b>
+	    <p><%= gig.gig_date %></p>
 	  </div>
 	<% end %>
 </div>

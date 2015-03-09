@@ -21,4 +21,23 @@
     </script>
 
     <div id="map-canvas"></div>
+
+    <% @gigs.each do |gig| %>
+			<div class="boxed col-xs-10 col-xs-offset-1">
+				<h1><%= link_to gig.venue.name, venue_path(gig.venue) %></h1>
+				<i><%= gig.name %></i></br /><br />
+				<p><%= gig.gig_date %><p><br />
+			</div>
+		<% end %>
+
+
+
+
+
+
+
+
+
+
+
 </div>
