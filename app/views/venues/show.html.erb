@@ -4,3 +4,12 @@
 <br><br>
 <p><%= @venue.description %></p>
 </div>
+
+<div class="clear"></div>
+<div class="boxed col-xs-10 col-xs-offset-1">
+<%= simple_form_for @gig, :url => '#' do |f| %>
+  <%= f.input :name %>
+  <br />
+  <%= f.submit "Add a Gig", :class => 'btn btn-primary' %>
+<% end %>
+</div>
