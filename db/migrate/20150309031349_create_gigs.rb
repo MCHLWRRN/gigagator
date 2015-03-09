@@ -7,5 +7,7 @@ class CreateGigs < ActiveRecord::Migration
 
       t.timestamps
     end
+
+   add_index :gigs, :venue_id
   end
 end

@@ -18,9 +18,12 @@ ActiveRecord::Schema.define(version: 20150309031349) do
 
   create_table "gigs", force: true do |t|
     t.string   "name"
+    t.integer  "venue_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "gigs", ["venue_id"], name: "index_gigs_on_venue_id", using: :btree
 
   create_table "venues", force: true do |t|
     t.string   "name"
