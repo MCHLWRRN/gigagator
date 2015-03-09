@@ -1,0 +1,10 @@
+Venue.create(:name => 'Doug Fir Lounge', :address => '830 E Burnside St, Portland, OR 97214', :description => 'Portland\'s nicest small room. Feels like you are in a log cabin')
+
+Venue.create(:name => 'Crystal Ballroom', :address => '1332 W Burnside St, Portland, OR 97209', :description => 'Downtown, spring loaded floor - what else do you need to know?')
+
+Venue.create(:name => 'Roseland Theater', :address => '8 NW 6th Ave, Portland, OR 97209', :description => 'Great sightlines and loud sound.')
+
+Venue.create(:name => 'Mississippi Studios', :address => '	3939 N Mississippi Ave, Portland, OR 97227', :description => 'Intimate room in a cool neighborhood.')
+
+Venue.create(:name => 'Wonder Ballroom', :address => '128 NE Russell St, Portland, OR 97212', :description => 'Best sound in Portland.')
+
